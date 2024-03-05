@@ -1,4 +1,4 @@
-/*
+
 let Name= "Rohit"
 
 console.log(typeof Name);   // Type = string
@@ -26,7 +26,7 @@ let someNumber = 33
 let stringNumber =String(someNumber)
 console.log(stringNumber);     // o/p => 33 as string
 console.log(typeof stringNumber);
-*/
+
 
 // ****************Operations**********************
 
