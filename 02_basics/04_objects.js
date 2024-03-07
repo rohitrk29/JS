@@ -72,9 +72,8 @@ const course = {
 //      or
 
 const {courseInstructor : instructor} = course 
-
 // console.log(courseInstructor);  or
-console.log(instructor);
+console.log(instructor);   // we can access courseInstructor through the instructor or courseInstructor both..
 
 
 
