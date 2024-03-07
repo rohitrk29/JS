@@ -17,7 +17,7 @@ const JsUser = {
     age: 22,
     location: "Bangalore",
     email: "rohit@gmail.com",
-    isLoggesIn: false,
+    isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
 
