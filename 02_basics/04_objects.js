@@ -62,3 +62,34 @@ console.log(instaUser.hasOwnProperty('isLoggedIn')); //it will check the value t
 */
 
 
+const course = {
+    coursename: "javascript",
+    price:"999",
+    courseInstructor: "rohit" 
+}
+
+// course.courseInstructor 
+//      or
+
+const {courseInstructor : instructor} = course 
+
+// console.log(courseInstructor);  or
+console.log(instructor);
+
+
+
+
+// All these API are in json format
+// json format 
+// {
+//     "name": "rohit",
+//     "coursename": "javascript",
+//     "price": "free"
+// } 
+
+// data in the form of array conataining objects 
+// [
+//     {},
+//     {},
+//     {}
+// ]
