@@ -72,7 +72,7 @@ console.log(addTwo(9));
 */
 
 
-console.log(addTwo(9)); //This will give error bcoz of declaring before in this syntax when we store the function in any variable. 
+// console.log(addTwo(9));      //This will give error bcoz of declaring before in this syntax when we store the function in any variable.
 // cannot access 'addtwo' before initialization or declaration. 
 const addTwo = function(num){
     return num + 2
