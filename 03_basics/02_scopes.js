@@ -77,3 +77,5 @@ console.log(addTwo(9)); //This will give error bcoz of declaring before in this 
 const addTwo = function(num){
     return num + 2
 }
+
+//
