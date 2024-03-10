@@ -7,7 +7,7 @@ if(true){
     var c = 50
     console.log("Inner:", a); 
 }
-
+//sndiuni
 console.log(a);
 // console.log(b);  //it will not print bcoz of accessing from outside of the scope
 console.log(c);  // only 50 will print bcoz of using var outside the scope
