@@ -15,6 +15,7 @@ console.log(c);  // only 50 will print bcoz of using var outside the scope
 //global scope is different in "node" and "browser" console
 
 
+
 // In this nested function chlid can access value from the parent.
 function one(){
     const username = "rohit"
