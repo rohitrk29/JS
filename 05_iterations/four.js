@@ -1,3 +1,5 @@
+//for in      objects can be iterates by this loop
+
 const myObject = {
     js: 'javascript',
     cpp: 'c++',
