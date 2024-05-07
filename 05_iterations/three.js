@@ -22,7 +22,7 @@ for (const greet of greetings) {
 }
 
 
-//Maps   (constains unique value)
+//Maps   (contains unique value)
 
 const map = new Map()
 map.set('IN', "India")
@@ -43,11 +43,11 @@ for (const [key, value] of map) {  //it will show seperate key and values
 }
 
 // objects can't be iterates by 'for of'  loop
-// const myObject = {
-//     game1: 'NFS',
-//     game2: 'Spiderman'
-// }
+const myObject = {
+    game1: 'NFS',
+    game2: 'Spiderman'
+}
 
-// for(const [key, value] of myObject){
-//     console.log(key, ':-', value);
-// }
+for(const [key, value] of myObject){
+    console.log(key, ':-', value);
+}
