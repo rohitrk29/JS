@@ -5,7 +5,7 @@
 
 # solution code
 
-## project 1
+## project 1 (theme switch)
 ```html
 <!-- html -->
 <!DOCTYPE html>
@@ -127,7 +127,7 @@ buttons.forEach(function (button) {
 
 ```
 
-## project2
+## project2 (bmi calculator)
 
 ```html
 <!-- html -->
