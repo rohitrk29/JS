@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>event</title>
+    <style>
+      .card {
+        width: 200px;
+        height: 200px;
+        display: grid;
+        place-items: center;
+        border: 1px solid red;
+        margin: 20px;
+      }
+      .parent{
+        border: 1px solid yellow;
+      }
+    </style>
+  </head>
+  <body style="background-color: #212121; color: aliceblue">
+    <div class="parent">
+      <div class="first" id="one">click here</div>
+      <div class="card">
+        <h3 class="title">superman</h3>
+      </div>
+    </div>
+  </body>
+  <script>
+    // document.getElementById('one').onclick = function(){
+    //     alert("warning...!!");
+    // }
+
+    // document.getElementById('one').addEventListener('click', function(){
+    //     alert("just clicked..");
+    // })
+
+    document.querySelector(".first").addEventListener("click", function () {
+      alert("just clicked..");
+    });
+
+    const card1 = document.querySelector(".card");
+    card1.addEventListener("click", () => {
+      card1.querySelector(".title").innerHTML = "batman";
+      console.log(card1.parentElement)
+      card1.parentElement.querySelector('.first').innerHTML = "changed";
+    });
+  </script>
+</html>
