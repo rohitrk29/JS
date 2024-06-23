@@ -79,6 +79,7 @@ span {
 
 #grey {
   background: grey;
+
 }
 
 #white {
