@@ -37,11 +37,11 @@ console.log("A ", myArr );
 
 
 const myn1= myArr.slice(1,3)   
-console.log(myn1);
+console.log(myn1);   // o/p : [1,2]
 console.log("B ", myArr);
 
 //In splice both the paramerter is included and its removes that particular part according to the given parameter (like from index 1 to 3 will be removed from the array).
 // Original array will be changed.
 const myn2 = myArr.splice(1,3) 
-console.log(myn2);
-console.log("C", myArr);
+console.log(myn2);   // o/p : [1,2,3]
+console.log("C", myArr);   // o/p : [0,4,5,10]
